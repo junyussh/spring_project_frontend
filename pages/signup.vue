@@ -15,15 +15,10 @@
           </div>
           <div id="navbarMenuHeroB" class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item is-active">Home</a>
-              <a class="navbar-item">Examples</a>
-              <a class="navbar-item">Documentation</a>
+              <nuxt-link to="/log" class="navbar-item is-active">Log In</nuxt-link>
               <span class="navbar-item">
-                <a class="button is-info is-inverted">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>Download</span>
+                <a class="button is-primary is-inverted is-medium">
+                  <nuxt-link to="/login">Home</nuxt-link>
                 </a>
               </span>
             </div>
@@ -31,13 +26,15 @@
         </div>
       </nav>
     </div>
-    <span  style="margin:0 auto;margin-top:7%; font: 700 100px Comic Sans MS;color: white;text-shadow: 0 0 20px #fdec84,10px -10px 30px #ffae35,20px -20px 40px #ec760c,-20px -60px 50px #cd4607,0px -80px 60px #973717,10px -40px 70px #451b0e;">Welcome To JPetstore</span>
+    <span
+      style="margin:0 auto;margin-top:7%; font: 700 100px Comic Sans MS;color: white;text-shadow: 0 0 20px #fdec84,10px -10px 30px #ffae35,20px -20px 40px #ec760c,-20px -60px 50px #cd4607,0px -80px 60px #973717,10px -40px 70px #451b0e;"
+    >Welcome To JPetstore</span>
     <div class="hero-body" style="width:40%; margin:0 auto; margin-top:-10%;">
-        <!-- <div class="container has-text-centered"> -->
+      <!-- <div class="container has-text-centered"> -->
       <!-- <h1 class="title is-size-1">Welcome to Petstore</h1> -->
-    <!-- </div> -->
+      <!-- </div> -->
       <div class="container is-centered">
-        <div class="field  is-primary">
+        <div class="field is-primary">
           <label class="labe">Name</label>
           <div class="control">
             <input class="input" type="text" placeholder="Text input" />
@@ -122,6 +119,12 @@
             <button class="button is-link is-light">Cancel</button>
           </div>
         </div>
+        <span
+          style="margin:0 auto;margin-top:7%; font: 700 20px Comic Sans MS;color: white;text-shadow: 0 0 20px #fdec84,10px -10px 30px #ffae35,20px -20px 40px #ec760c,-20px -60px 50px #cd4607,0px -80px 60px #973717,10px -40px 70px #451b0e;"
+        >
+          Already have a account? Click here to
+          <nuxt-link to="/log">log in!</nuxt-link>
+        </span>
       </div>
     </div>
     <div class="hero-foot"></div>

@@ -7,7 +7,7 @@
             </h1>
             </div>
     </div>
-    <div class="tile is-ancestor" style="width:40%; margin:0 auto;">
+    <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
         <div class="tile">
           <div class="tile is-parent is-vertical">

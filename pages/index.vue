@@ -57,6 +57,7 @@
         </div>
       </div>
     </div>
+    <div class="hero-foot"></div>
   </section>
 </template>
 
