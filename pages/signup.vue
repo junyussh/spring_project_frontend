@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-info is-large">
+  <section class="hero is-black is-large">
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
@@ -31,19 +31,20 @@
         </div>
       </nav>
     </div>
-    <div class="hero-body">
-        <div class="container has-text-centered">
-      <h1 class="title is-size-1">Welcome to Petstore</h1>
-    </div>
+    <span  style="margin:0 auto;margin-top:7%; font: 700 100px Comic Sans MS;color: white;text-shadow: 0 0 20px #fdec84,10px -10px 30px #ffae35,20px -20px 40px #ec760c,-20px -60px 50px #cd4607,0px -80px 60px #973717,10px -40px 70px #451b0e;">Welcome To JPetstore</span>
+    <div class="hero-body" style="width:40%; margin:0 auto; margin-top:-10%;">
+        <!-- <div class="container has-text-centered"> -->
+      <!-- <h1 class="title is-size-1">Welcome to Petstore</h1> -->
+    <!-- </div> -->
       <div class="container is-centered">
-        <div class="field">
-          <label class="label">Name</label>
+        <div class="field  is-primary">
+          <label class="labe">Name</label>
           <div class="control">
             <input class="input" type="text" placeholder="Text input" />
           </div>
         </div>
 
-        <div class="field">
+        <div class="field is-primary">
           <label class="label">Username</label>
           <div class="control has-icons-left has-icons-right">
             <input class="input is-success" type="text" placeholder="Text input" value="bulma" />
@@ -54,10 +55,10 @@
               <i class="fas fa-check"></i>
             </span>
           </div>
-          <p class="help is-success">This username is available</p>
+          <p class="help is-success" style="font-size: 18px;">This username is available</p>
         </div>
 
-        <div class="field">
+        <div class="field is-primary">
           <label class="label">Email</label>
           <div class="control has-icons-left has-icons-right">
             <input class="input is-danger" type="email" placeholder="Email input" value="hello@" />
@@ -68,10 +69,10 @@
               <i class="fas fa-exclamation-triangle"></i>
             </span>
           </div>
-          <p class="help is-danger">This email is invalid</p>
+          <p class="help is-danger" style="font-size: 18px;">This email is invalid</p>
         </div>
 
-        <div class="field">
+        <div class="field is-primary">
           <label class="label">Subject</label>
           <div class="control">
             <div class="select">
@@ -83,7 +84,7 @@
           </div>
         </div>
 
-        <div class="field">
+        <div class="field is-primary">
           <label class="label">Message</label>
           <div class="control">
             <textarea class="textarea" placeholder="Textarea"></textarea>

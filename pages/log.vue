@@ -31,7 +31,7 @@
         </div>
       </nav>
     </div>
-    <div class="hero-body">
+    <div class="hero-body" style="width:40%; margin:0 auto;">
       <div class="container">
         <div class="field">
           <p class="control has-icons-left has-icons-right">
@@ -52,9 +52,9 @@
             </span>
           </p>
         </div>
-        <div class="field is-centered">
+        <div class="field margin:0 auto;">
           <p class="control">
-            <button class="button is-success">Login</button>
+            <button class="button is-success is-centered">Login</button>
           </p>
         </div>
       </div>

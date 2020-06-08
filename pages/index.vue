@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight-with-navbar is-primary">
+  <section class="hero is-fullheight-with-navbar is-black">
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
@@ -19,7 +19,7 @@
           <div id="navbarMenuHeroA" class="navbar-menu">
             <div class="navbar-end">
               <!-- <a class="navbar-item is-active">Home</a>
-              <a class="navbar-item">Documentation</a> -->
+              <a class="navbar-item">Documentation</a>-->
               <span class="navbar-item">
                 <a class="button is-primary is-inverted is-medium">
                   <nuxt-link to="/log">Log In</nuxt-link>
@@ -51,7 +51,8 @@
             </div>
           </div>
           <div class="column">
-            <img src="~/assets/buefy.png" width="500" height="500" alt srcset />
+            <span  style="font: 700 100px Comic Sans MS;color: white;text-shadow: 0 0 20px #fdec84,10px -10px 30px #ffae35,20px -20px 40px #ec760c,-20px -60px 50px #cd4607,0px -80px 60px #973717,10px -40px 70px #451b0e;">Welcome JPetstore</span>
+            <!-- <img src="~/assets/buefy.png" width="500" height="500" alt srcset /> -->
           </div>
         </div>
       </div>
@@ -70,3 +71,5 @@ export default {
   }
 };
 </script>
+
+
