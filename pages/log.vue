@@ -60,7 +60,7 @@
           style="margin:0 auto;margin-top:7%; font: 700 20px Comic Sans MS;color: white;text-shadow: 0 0 20px #fdec84,10px -10px 30px #ffae35,20px -20px 40px #ec760c,-20px -60px 50px #cd4607,0px -80px 60px #973717,10px -40px 70px #451b0e;"
         >
           Don't have a account? Click here to
-          <nuxt-link to="/log">Sign Up!</nuxt-link>
+          <nuxt-link to="/signup">Sign Up!</nuxt-link>
         </span>
       </div>
     </div>
